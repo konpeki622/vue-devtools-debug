@@ -5,11 +5,7 @@
       <router-link id="router-link" to="/foo">go to foo</router-link>
       <router-link id="router-link" to="/bar">go to bar</router-link>
     </p>
-    <transition>
-      <keep-alive>
-        <router-view />
-      </keep-alive>
-    </transition>
+    <router-view />
   </div>
 </template>
 
