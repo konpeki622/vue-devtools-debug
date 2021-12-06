@@ -6,9 +6,7 @@
       <router-link id="router-link" to="/bar">go to bar</router-link>
     </p>
     <transition>
-      <keep-alive>
-        <router-view />
-      </keep-alive>
+      <router-view />
     </transition>
   </div>
 </template>
