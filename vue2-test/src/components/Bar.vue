@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>bar</p>
+    <p>{{ message }}</p>
     <hello-world msg="Welcome to Your Vue.js App" />
   </div>
 </template>
@@ -12,6 +12,11 @@ export default {
   name: 'Bar',
   components: {
     HelloWorld
+  },
+  data() {
+    return {
+      message: 'test'
+    }
   }
 }
 </script>
